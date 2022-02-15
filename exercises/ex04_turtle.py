@@ -24,6 +24,7 @@ def main() -> None:
 
 
 def clouds(turtle_one: Turtle, x: float, y: float, heading: float) -> None:
+    """Draws clouds using semi-circles."""
     turtle_one.penup()
     turtle_one.goto(x, y)
     turtle_one.setheading(heading)
