@@ -1,4 +1,4 @@
-"""Tests for the utils functions."""
+"""Tests if the functions pass."""
 
 __author__ = "730490894"
 
