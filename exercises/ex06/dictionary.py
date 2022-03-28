@@ -32,7 +32,7 @@ def favorite_color(xs: dict[str, str]) -> str:
 
 def count(xs: list[str]) -> dict[str, int]:
     """Counts the number of times a unique str appears in the list."""
-    dictionary = {}
+    dictionary: dict[str, int] = {}
     for item in xs:
         if item in dictionary:
             dictionary[item] += 1
